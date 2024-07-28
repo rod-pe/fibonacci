@@ -4,6 +4,6 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(fibonacci(12))
+print(fibonacci(15))
 
 # Esta é uma função de complexidade O(2^n)
